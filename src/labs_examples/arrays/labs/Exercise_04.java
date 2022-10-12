@@ -9,5 +9,15 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+        int[][] array = new int[3][2];
 
+        for(int i = 0; i<array.length; i++){
+            for(int j = 0; j<array[i].length; j++){
+                array[i][j] = i * j;
+                System.out.print("\t" + array[i][j]);
+            }
+            System.out.println();
+        }
+    }
 }
