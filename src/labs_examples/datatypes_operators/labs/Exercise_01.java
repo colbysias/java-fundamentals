@@ -15,7 +15,15 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_01 {
 
     public static void main(String[] args) {
+        int num = 1;
+        double decimal = 1.01;
+        float num2 = 2.02f;
+        char letter = 'c';
 
+        System.out.println(num);
+        System.out.println(decimal);
+        System.out.println(num2);
+        System.out.println(letter);
         // write code here
 
     }

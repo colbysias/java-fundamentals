@@ -17,6 +17,8 @@ package labs_examples.datatypes_operators.labs;
  *
  *      Notice how each type is converted. In which direction is information lost?
  *
+ *      Answer: Information is lost when you narrow.
+ *
  */
 
 public class Exercise_02 {
@@ -24,6 +26,15 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int num = 10;
+        double num2 = num;
+
+        System.out.println(num2);
+
+        double decimal = 10.5;
+        int newNum = (int)decimal;
+
+        System.out.println(newNum);
 
     }
 }
