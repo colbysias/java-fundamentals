@@ -8,4 +8,14 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_10 {
+    public static void main(String[] args) {
+        int num= 0;
+
+        while(num <=100){
+            if (num == 50){
+                continue;
+            }
+            num++;
+        }
+    }
 }
