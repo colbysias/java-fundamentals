@@ -1,20 +1,29 @@
 class Main {
     public static void main(String[] args) {
-        // please create the varargs method as instructed below
-        // then, please call the varargs method at least 3 // times here with a different number of arguments
-        myMethod("Hello", "World");
-        myMethod("This", "is", "Another");
-        myMethod("One");
 
+        // please write a custom constructor in the Person class
+        // as directed below (in the Person class)
+
+        Person person1 = new Person("Colby", 30);
+        Person person2 = new Person("Devin", 26);
+        // now use that new constructor to create two unique Person objects
+
+        // now print the instance var values of each object
+        System.out.println(person1.name + " " + person1.age);
+        System.out.println(person2.name + " " + person2.age);
     }
+}
 
-    // please write a varargs method of your choice that
-    // prints out the length of the array of arguments
-    // passed into the method below
-    public static void myMethod(String... v) {
-        for (String word : v) {
-            System.out.println(word);
+class Person {
+
+    String name;
+    int age;
+        Person(String name1, int age1){
+            name = name1;
+            age = age1;
         }
+    // please create a fully qualified constructor
+    // (which is a constructor that takes in "name" and "age")
+    // and set the instance variables above from within the constructor
 
-    }
 }
