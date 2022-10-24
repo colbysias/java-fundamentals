@@ -1,6 +1,13 @@
 
 Without running the code below, please tell me what will print. Why?
 
+Answer:
+*As error text*
+Parent called
+Child called
+
+because it's not specifying a specific method so it'll go through the parent class first and then to the child class.
+
 
 
 

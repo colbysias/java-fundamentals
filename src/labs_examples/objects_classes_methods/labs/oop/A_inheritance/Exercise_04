@@ -1,6 +1,9 @@
 
 Without running the code below, please tell me what it will print.
 
+Answer:
+*As an error text* Child called. IT prints this because doSomething() method is being overrided from the child class.
+
 
 
 public class InheritanceTest
